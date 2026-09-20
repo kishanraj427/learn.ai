@@ -33,7 +33,7 @@ Context:
 model = "qwen3.5:4b"
 
 client = OpenAI(
-    base_url="http://localhost:11434/v1",
+    base_url="http://localhost:11434/v1", 
     api_key="ollama",
 )
 
